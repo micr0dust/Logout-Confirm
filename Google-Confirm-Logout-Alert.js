@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Google Logout Confirm
+// @name:zh      防止在 Google 誤觸登出
 // @namespace    http://tampermonkey.net/
 // @author       Microdust
 // @version      1.0
 // @description  為 Google 登出鈕增加確認對話框，避免誤點導致帳號全部登出
 // @include      *://*.google.*/*
 // @grant        none
+// @license MIT
 // ==/UserScript==
 
 (function() {
